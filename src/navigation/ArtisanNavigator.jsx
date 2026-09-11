@@ -1,4 +1,4 @@
-import { createBottomTabNavigator } from "expo-router/js-tabs";
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import { AbstractTabBar } from '@/navigation/AbstractTabBar';
 import {

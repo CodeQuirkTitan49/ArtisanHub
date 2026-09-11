@@ -1,9 +1,9 @@
-import { NavigationContainer, DefaultTheme } from "expo-router/react-navigation";
+import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
 import { useAuth } from '@/context/AuthContext';
 import { ArtisanNavigator } from '@/navigation/ArtisanNavigator';
-import { AuthNavigator } from '@/navigation/AuthNavigator';
+import AuthNavigator from '@/navigation/AuthNavigator';
 import { BuyerNavigator } from '@/navigation/BuyerNavigator';
 import { colors, typography } from '@/theme';
 
